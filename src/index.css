@@ -1,0 +1,16 @@
+@import "tailwindcss";
+
+body{
+    background-color: #242424;
+    color: white;
+}
+
+
+/* Hide scrollbar */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
