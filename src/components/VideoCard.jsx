@@ -2,7 +2,7 @@ import React from 'react'
 
 const VideoCard = ({ video }) => {
   return (
-<div className="min-w-[220px] sm:min-w-[260px] md:min-w-[300px]">
+<div className="min-w-55 sm:min-w-65 md:min-w-70">
   <video
     src={video.video}
     autoPlay
@@ -11,7 +11,7 @@ const VideoCard = ({ video }) => {
     playsInline
     className="
       w-full 
-      h-[280px] sm:h-[320px] md:h-[430px] 
+      h-70 sm:h-80 md:h-108 
       object-cover 
       rounded-3xl
     "

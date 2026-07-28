@@ -1,4 +1,5 @@
 import React from 'react'
+import ContactButton from './ContactButton'
 
 const TextHero = () => {
   return (
@@ -19,10 +20,12 @@ const TextHero = () => {
     sm:text-xl
     md:text2xl
     lg:text-4xl
-    font-mono
     ' >
     We shoot videos that express the purpose of your products
   </h3>
+  <div className='flex justify-center items-center pt-4 ' >
+    <ContactButton/>
+  </div>
 
 </div>
   )

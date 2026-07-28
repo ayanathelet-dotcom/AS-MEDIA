@@ -22,7 +22,7 @@ const WorkSection = () => {
   };
 
   return (
-    <section className="py-20 px-6 relative">
+    <section className="py-20 px-6 relative bg-[#000000]">
 
       <SectionHeader />
 
